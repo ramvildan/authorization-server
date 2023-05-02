@@ -1,0 +1,7 @@
+server:
+  port: 9000
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost/userdb
+    username: admin1234
+    password: secret1234
